@@ -67,7 +67,7 @@ client.on('message', message => {
             //client.channels.get(testchannel).send('spamming into ' + spamid[curr]);
             client.channels.get(spamid[curr]).send(str);
             curr++;
-        }, 1000);
+        }, 1800);
     }
     
     if (message.content === '$spam') { 
@@ -84,7 +84,7 @@ client.on('message', message => {
             //client.channels.get(testchannel).send('spamming into ' + spamid[curr]);
             client.channels.get(spamid[curr]).send('spamming here');
             curr++;
-        }, 1000);
+        }, 1800);
     }
     
     if (message.content === '$stop') {
@@ -103,7 +103,7 @@ client.on('message', message => {
                 //client.channels.get(testchannel).send('spamming into ' + spamid[curr]);
                 client.channels.get(spamid[curr]).send('spamming here');
                 curr++;
-            }, 1000);
+            }, 1800);
         }
     }
     
